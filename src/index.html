@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务端打包渲染</title>
+</head>
+<body>
+    <div id="root"><!--HTML_PLACEHOLDER--></div>
+    <!--INITIAL_DATA_PLACEHOLDER-->
+    <script>
+        if(window.__initial_data){
+            const newDiv = document.createElement("div");
+            let newContent = document.createTextNode(window.__initial_data.name);
+            newDiv.appendChild(newContent);
+            const root = document.getElementById("root");
+            document.body.insertBefore(newDiv, root);
+        }
+    </script>
+</body>
+</html>

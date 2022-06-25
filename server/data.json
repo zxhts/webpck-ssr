@@ -1,0 +1,17 @@
+{
+    "id": 1901371981824000,
+    "versionNo": 1,
+    "name": "自定义档案13",
+    "description": "",
+    "createdStamp": 1655794459000,
+    "lastUpdatedStamp": 1655794469000,
+    "code": "ARCHIVE1655794459136",
+    "createdUserId.id": 61000432708,
+    "createdUserId.name": "zxh4339",
+    "lastUpdatedUserId.id": 61000432708,
+    "lastUpdatedUserId.name": "zxh4339",
+    "moduleTypeEnum.value": "DOC",
+    "moduleTypeEnum.label": "档案",
+    "modulePublishStatusEnum.value": "UNPUBLISHED",
+    "modulePublishStatusEnum.label": "待发布"
+}
